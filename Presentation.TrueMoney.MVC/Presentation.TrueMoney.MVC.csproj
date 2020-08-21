@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.TrueMoney.Core\Business.TrueMoney.Core.csproj" />
+    <ProjectReference Include="..\DataAccess.Entities.Context\DataAccess.Entities.Context.csproj" />
+    <ProjectReference Include="..\DataAccess.Repository.TrueMoney\DataAccess.Repository.TrueMoney.csproj" />
+    <ProjectReference Include="..\DataAccess.TRUEMONEY\DataAccess.Database.TRUEMONEY.csproj" />
+  </ItemGroup>
+
+</Project>
